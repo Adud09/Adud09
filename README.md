@@ -12,8 +12,10 @@ Things I've built:
 
 Every project above ships with a Foundry test suite. I don't hand over untested code.
 
+The paranoia scales up too: I built [**evalkit**](https://github.com/Adud09/evalkit) — a Python evaluation harness that runs code submissions in sandboxed subprocesses and catches the three ways people game graders: overfitting to visible tests, order-dependent hacks, and hardcoded outputs. 54 tests, zero dependencies. Grading code is just auditing it with different stakes.
+
 I'm also deep in security work — Ethernaut, Damn Vulnerable DeFi, reading real audit findings daily. That paranoia is part of the service: contracts I write are checked against the ways contracts actually get exploited.
 
-**Stack:** Solidity, Foundry, Chainlink (oracles, VRF, CCIP), OpenZeppelin.
+**Stack:** Solidity, Foundry, Chainlink (oracles, VRF, CCIP), OpenZeppelin, Python.
 
 Building something? Reach me at [danieloluwapelumi806@gmail.com](mailto:danieloluwapelumi806@gmail.com) or DM me on X: [@Botforges](https://x.com/Botforges)
