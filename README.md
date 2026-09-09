@@ -1,28 +1,16 @@
-# 👋 Daniel Adu — Smart Contract Developer
+## Hi, I'm Daniel
 
-I build DeFi and cross-chain protocols on EVM, and I'm currently leveling up in **smart contract security & auditing**.
+I write smart contracts — mostly DeFi and cross-chain things on EVM. Right now I'm working toward becoming a security auditor, which mostly means reading exploit post-mortems and breaking my own contracts before someone else does.
 
-## 🔨 What I Build
+**What I've built so far:**
 
-| Area | Projects |
-|---|---|
-| **Lending protocols** | Share-based liquidity pools, LTV borrowing, time-based interest, liquidations |
-| **Cross-chain (CCIP)** | Merkle airdrops with cross-chain claiming, token pools for rebasing tokens |
-| **Account abstraction** | ERC-4337 smart accounts (Ethereum + zkSync Era) |
-| **Governance** | Governor + Timelock + ERC20Votes DAO stacks |
-| **Stablecoins** | Overcollateralized DSC with Chainlink price feeds & liquidation engine |
+- Lending protocols — share-based liquidity pools, collateralized borrowing, liquidation engines. I built one, found the flaws in it, and rebuilt it better.
+- Cross-chain systems with Chainlink CCIP — a merkle airdrop that claims across chains, and a rebasing token that bridges without breaking its interest math.
+- Account abstraction (ERC-4337) — smart accounts on Ethereum and zkSync.
+- A decentralized stablecoin, a VRF raffle, and the usual foundational pile.
 
-## 🛠️ Stack
+**Day to day I work with:** Solidity, Foundry, Chainlink oracles/VRF/CCIP, OpenZeppelin.
 
-`Solidity` `Foundry` `Chainlink (VRF / CCIP / Price Feeds)` `OpenZeppelin` `Ethers.js` `zkSync Era`
+**Currently:** deep in Ethernaut and Damn Vulnerable DeFi, reading Solodit findings daily, and preparing for my first audit contests. Ask me about the liquidation bug I wrote into my own lending protocol — good learning experience, honestly.
 
-## 🎯 Current Focus — Security Track
-
-- [x] Foundry fundamentals, DeFi builds, cross-chain systems
-- [ ] Ethernaut → Damn Vulnerable DeFi → Solodit findings
-- [ ] First audit contests (CodeHawks / Cantina)
-
-## 📫 Find Me
-
-- GitHub: you're here 🙂
-- X/Twitter: *[add your handle]*
+I document what I learn along the way. If you're building on EVM or want to talk security, my DMs are open.
