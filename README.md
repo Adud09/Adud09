@@ -1,16 +1,19 @@
 ## Hi, I'm Daniel
 
-I write smart contracts — mostly DeFi and cross-chain things on EVM. Right now I'm working toward becoming a security auditor, which mostly means reading exploit post-mortems and breaking my own contracts before someone else does.
+I'm a smart contract developer for hire. I build, test, and deploy Solidity contracts — tokens, NFT drops, staking, airdrops (merkle and cross-chain), and custom DeFi logic. If it needs to ship on EVM and not break, that's what I do.
 
-**What I've built so far:**
+Things I've built:
 
-- Lending protocols — share-based liquidity pools, collateralized borrowing, liquidation engines. I built one, found the flaws in it, and rebuilt it better.
-- Cross-chain systems with Chainlink CCIP — a merkle airdrop that claims across chains, and a rebasing token that bridges without breaking its interest math.
-- Account abstraction (ERC-4337) — smart accounts on Ethereum and zkSync.
-- A decentralized stablecoin, a VRF raffle, and the usual foundational pile.
+- **Lending protocols** — two of them. The second exists because I found the flaws in the first. Share-based liquidity pools, collateralized borrowing, liquidations, time-based interest.
+- **Cross-chain systems with Chainlink CCIP** — a merkle airdrop that claims across chains, and a rebasing token that bridges without breaking its interest math.
+- **ERC-4337 smart accounts** on Ethereum and zkSync Era.
+- **A decentralized stablecoin** with Chainlink price feeds and a liquidation engine.
+- **A VRF raffle** — provably fair, Chainlink VRF v2.5.
 
-**Day to day I work with:** Solidity, Foundry, Chainlink oracles/VRF/CCIP, OpenZeppelin.
+Every project above ships with a Foundry test suite. I don't hand over untested code.
 
-**Currently:** deep in Ethernaut and Damn Vulnerable DeFi, reading Solodit findings daily, and preparing for my first audit contests. Ask me about the liquidation bug I wrote into my own lending protocol — good learning experience, honestly.
+I'm also deep in security work — Ethernaut, Damn Vulnerable DeFi, reading real audit findings daily. That paranoia is part of the service: contracts I write are checked against the ways contracts actually get exploited.
 
-I document what I learn along the way. If you're building on EVM or want to talk security, my DMs are open.
+**Stack:** Solidity, Foundry, Chainlink (oracles, VRF, CCIP), OpenZeppelin.
+
+Building something? Reach me: [your-email@example.com] or DM me on X [@your-handle]
