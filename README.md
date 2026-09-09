@@ -16,4 +16,4 @@ I'm also deep in security work — Ethernaut, Damn Vulnerable DeFi, reading real
 
 **Stack:** Solidity, Foundry, Chainlink (oracles, VRF, CCIP), OpenZeppelin.
 
-Building something? Reach me: [your-email@example.com] or DM me on X [@your-handle]
+Building something? Reach me: [danieloluwapelumi806@gmail.com] or DM me on X [@Botforges]
