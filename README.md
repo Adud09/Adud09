@@ -12,7 +12,7 @@ Things I've built:
 
 Every project above ships with a Foundry test suite. I don't hand over untested code.
 
-The paranoia scales up too: I built [**evalkit**](https://github.com/Adud09/evalkit) — a Python evaluation harness that runs code submissions in sandboxed subprocesses and catches the three ways people game graders: overfitting to visible tests, order-dependent hacks, and hardcoded outputs. 54 tests, zero dependencies. Grading code is just auditing it with different stakes.
+The paranoia scales up too. I built [**evalkit**](https://github.com/Adud09/evalkit), a Python harness for grading code submissions in sandboxed subprocesses: it catches overfitting to visible tests, order-dependent hacks, and hardcoded outputs. Grading code is just auditing it with different stakes.
 
 I'm also deep in security work — Ethernaut, Damn Vulnerable DeFi, reading real audit findings daily. That paranoia is part of the service: contracts I write are checked against the ways contracts actually get exploited.
 
