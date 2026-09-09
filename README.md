@@ -14,6 +14,8 @@ Every project above ships with a Foundry test suite. I don't hand over untested 
 
 The paranoia scales up too. I built [**evalkit**](https://github.com/Adud09/evalkit), a Python harness for grading code submissions in sandboxed subprocesses: it catches overfitting to visible tests, order-dependent hacks, and hardcoded outputs. Grading code is just auditing it with different stakes.
 
+Lately I've been tooling up my own workflow: [**forge-toolkit**](https://github.com/Adud09/forge-toolkit) does gas diffs with CI thresholds, flaky test hunting, and suite stats for Foundry projects. It runs against my own repos daily, which is the only testing that counts.
+
 I'm also deep in security work: Ethernaut, Damn Vulnerable DeFi, reading real audit findings daily. That paranoia is part of the service. Contracts I write are checked against the ways contracts actually get exploited.
 
 **Stack:** Solidity, Foundry, Chainlink (oracles, VRF, CCIP), OpenZeppelin, Python.
